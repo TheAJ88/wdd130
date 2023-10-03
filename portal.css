@@ -1,3 +1,6 @@
+/* *{
+    border: 2px solid red;
+} */
 a {
     background-color: lightblue;
     color: rgb(71, 69, 69);
@@ -6,10 +9,35 @@ a {
     margin: 5px;
     text-align: center;
 }
+a:hover{
+    background-color: grey;
+    color:white;
+}
 nav{
     display: flex;
+}
+h1{
+    text-align: center;
+    font-size: 2em;
+}
+img {
+    width:50%;
+    display: block;
+    margin: 0 auto;
+}
+p {
+    /* text-align: center; */
+    width: 300px;
+    margin: 10px auto;
+    padding: 10px;
 }
 .background {
     background-color: aqua;
 
+}
+footer p{
+    width: 100%;
+    text-align: center;
+    background-color: lightblue;
+    color: rgb(71, 69, 69);
 }
