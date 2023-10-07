@@ -1,5 +1,5 @@
 body{
-    background-color: pink;
+    background-color: rgb(252, 165, 192);
 }
 #TOP{
     text-align: center;
@@ -20,7 +20,24 @@ h3{
     color: black;
 }
 img{
-    width:30%;
+    width:15%;
     display: block;
     margin: 0 auto;
+    
+}
+p{
+    display: block;
+    margin-left: 32%;
+    font-size: 18px;
+    font-weight: bold;
+}
+#second_quote{
+    color: white;
+    text-align: center;
+    padding: 5%;
+    font-size: 1.8em;
+    
+}
+footer{
+    text-align: center;
 }
