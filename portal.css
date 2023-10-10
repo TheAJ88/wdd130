@@ -1,6 +1,13 @@
 /* *{
     border: 2px solid red;
 } */
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Titillium+Web&display=swap');
+
+body{
+    font-family: Titillium Web, Verdana, Geneva, Tahoma, sans-serif;
+    background-color: bisque;
+}
+
 a {
     background-color: lightblue;
     color: rgb(71, 69, 69);
@@ -8,6 +15,7 @@ a {
     padding: 10px;
     margin: 5px;
     text-align: center;
+    border-radius: 5px;
 }
 a:hover{
     background-color: grey;
@@ -15,21 +23,29 @@ a:hover{
 }
 nav{
     display: flex;
+    justify-content: center;
+    padding-top: 20px;
 }
 h1{
     text-align: center;
     font-size: 2em;
+    margin:20px auto;
 }
 img {
     width:50%;
     display: block;
-    margin: 0 auto;
+    margin: 20px auto;
+    border: 5px solid rgb(248, 195, 132);
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 30px;
 }
 p {
     /* text-align: center; */
     width: 300px;
     margin: 10px auto;
     padding: 10px;
+    box-sizing: border-box;
 }
 .background {
     background-color: aqua;
@@ -41,6 +57,9 @@ footer p{
     background-color: lightblue;
     color: rgb(71, 69, 69);
 }
-content{
+#content{
+    background-color: white;
+    max-width: 800px;
+    margin: 0 auto;
     
 }
