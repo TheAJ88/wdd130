@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Titillium+Web&display=swap');
+
+.home-title{
+    font-family: "Black Ops One", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+.msg h2{
+    font-family: "Black Ops One", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+#logo_link{
+    padding-top: 5px;
+}
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,6 +22,7 @@ nav a{
     text-align: center;
     color: #252422;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover{
     background-color: #252422;
@@ -26,12 +43,19 @@ nav a:hover{
 main section{
     text-align: center;
 }
+main section img{
+    box-sizing: border-box;
+}
 #background{
     height: 725px;
     background-color: #e8dab7;
 }
 body{
     background-color: #252422;
+    font-family: Titillium Web, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header{
     background-color: #EB5E28;
@@ -40,10 +64,18 @@ header{
     background-color: #e8dab7;
     color: #252422;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join{
     background-color: #EB5E28;
     color: #252422;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover{
     background-color: #EB5E28;
@@ -56,11 +88,15 @@ header{
 }
 .msg{
     background-color: #EB5E28;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer{
     background-color: #EB5E28;
     color: #252422;
     font-size: 1.2em;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a{
     color: #252422;
@@ -78,11 +114,30 @@ footer a:hover{
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 h2{
     color: whitesmoke;
+    margin: 0;
 }
-
-
+.msg p{
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.rivers-card{
+    margin: 200px 0;
+}
+.camping-card{
+    margin: 200px 0;
+}
+.rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border:#EB5E28 10px;
+}
 
 
