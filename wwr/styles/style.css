@@ -197,6 +197,75 @@ nav{
     box-shadow: 5px 5px 10px #6f7364;
 }
 
+.booking-title{
+    font-family: "Black Ops One", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+    color: #e8dab7;
+    grid-column: 4/8;
+    margin-top: 10%;
+    margin-bottom: 30%;
+    
+}
+.random-img{
+    border: 10px solid #e8dab7;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.random-img:hover{
+    transform: scale(1.1);
+    border:10px solid #EB5E28
+}
+
+.bookings-grid{
+    display: grid;
+    grid-template-columns: repeat(10, 3fr);
+}
+.GRAND_CANYON_1{
+    margin-bottom: 20%;
+    grid-column: 2/4;
+    grid-row: 4/6;
+}
+.canyon1-rate{
+    margin-bottom: 20%;
+    grid-column: 6/9;
+    grid-row: 4/6;
+}
+.GRAND_CANYON_1, p{
+    color: #e8dab7;
+}
+.GRAND_CANYON_2{
+    margin-bottom: 20%;
+    grid-column: 2/4;
+    grid-row: 7/9;
+}
+.canyon2-rate{
+    margin-bottom: 20%;
+    grid-column: 6/9;
+    grid-row: 7/9;
+}
+.SALMON_NIGHT_TRIP{
+    margin-bottom: 20%;
+    grid-column: 2/4;
+    grid-row: 10/12;
+}
+.salmon-rate{
+    margin-bottom: 20%;
+    grid-column: 6/9;
+    grid-row: 10/12;
+}
+.DESOLATION_6{
+    margin-bottom: 20%;
+    grid-column: 2/4;
+    grid-row: 13/15;
+}
+.desolation-rate{
+    margin-bottom: 20%;
+    grid-column: 6/9;
+    grid-row: 13/15;
+}
+
+
+
 /* RESPONSIVE CSS FOR SCREENS SMALLER THAN 900PX */
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
