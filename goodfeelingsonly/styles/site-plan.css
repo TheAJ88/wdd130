@@ -2,29 +2,30 @@
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
 
-@import url('https://fonts.googleapis.com/css2?family=Acme&family=Black+Ops+One&family=Rowdies:wght@300&family=Titillium+Web&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Acme&family=Black+Ops+One&family=Rowdies:wght@300&family=Titillium+Web&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Amatic+SC&family=Black+Ops+One&family=Bungee&family=Rowdies:wght@300&family=Titillium+Web&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #3F291D   ;
-  --secondary-color: #FFEAC5 ;
-  --accent1-color: #EB5E28;
-  --accent2-color: #1E003A;
+  --primary-color: #001F04   ;
+  --secondary-color: #FFF200 ;
+  --accent1-color: #540049;
+  --accent2-color: #00C9CC;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Rowdies";
   --paragraph-font: Titillium Web, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #1E003A;  /* headlines on a white background */ 
-  --headline-color-on-color: #FFEAC5; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #1E003A; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #3F291D  ;
-  --nav-link-color: #1E003A;
-  --nav-background-color: #EB5E28;
-  --nav-hover-link-color: #FFEAC5;
-  --nav-hover-background-color: #1E003A;
+  --headline-color-on-white: #540049;  /* headlines on a white background */ 
+  --headline-color-on-color: #FFF200; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #540049; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #FFF200; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #001F04  ;
+  --nav-link-color: #FFF200;
+  --nav-background-color: #540049;
+  --nav-hover-link-color: #001F04;
+  --nav-hover-background-color: #00C9CC;
 }
 
 
