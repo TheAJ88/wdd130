@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Amatic+SC&family=Black+Ops+One&family=Bungee&family=MedievalSharp&family=Orbitron:wght@500&family=Rowdies:wght@300&family=Titillium+Web&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -20,7 +23,31 @@ nav a:hover{
 nav{
     display:flex;
     justify-content: space-around;
+    font-size: 200%;
 }
+footer{
+    background-color: #540049;
+    color: #FFF200;
+    font-size: 1.2em;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a{
+    font-family: "Orbitron", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    font-size: 200%;
+    color: antiquewhite;
+}
+
+footer a:hover{
+    color: aqua;
+    text-decoration: underline;
+}
+
 #logo_link{
     padding-top: 5px;
     justify-self: center;
@@ -30,8 +57,178 @@ nav{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
 }
+#hero-img{
+    width: 50%;
+    height: auto;
+}
 #hero-box{
     grid-column: 1/4;
     grid-row: 1/3;
     text-align: center;
 }
+.logo{
+    width: 120px;
+    height: auto;
+    border-radius: 15px;
+}
+
+body{
+    /* background-color: #001f04; */
+    background-image: linear-gradient(180deg,#001f04, #FFF200);
+}
+
+.home-grid{
+    display:grid;
+    grid-template-columns: repeat(10, 3fr);
+}
+
+.msg{
+    font-family: "Titillium Web", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #FFF200;
+    text-align: center;
+    grid-column: 1/11;
+    grid-row: 1/3;
+    font-size: 150%;
+    background-color: #252422;
+    border: 5px solid gray;
+    margin: 5px;
+}
+
+.WEAPONS{
+    font-family: "Titillium Web", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #FFF200;
+    text-align: center;
+}
+#spear{
+    margin: 200px auto;
+    grid-column: 2/5;
+    grid-row: 10/13;
+    text-align: center;
+    background-color: aqua;
+    padding:20px;
+    border: 10px solid #4b0000;
+    color: #001f04;
+    font-family: "Amatic", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;;
+}
+#shield{
+    margin: 200px auto;
+    grid-column: 7/10;
+    grid-row: 10/13;
+    text-align: center;
+    background-color: aqua;
+    padding:20px;
+    border: 10px solid #4b0000;
+    color: #001f04;
+    font-family: "Amatic", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;;
+}
+
+h3{
+    font-family: "Amatic", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.ABOUTLIB{
+    grid-column: 2/10;
+    grid-row:3/5;
+    background-color: #252422;
+    border: 5px solid gray;
+    color: antiquewhite;
+    padding: 5%;
+}
+
+#wep_intro{
+    grid-column: 2/10;
+    grid-row:6/9;
+    font-family: "Acme", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 150%;
+    color: #4b0000;
+    text-align: center;
+    
+}
+
+
+#Skaardak{
+    transition: transform .5s;
+    transition: rotate .5s;
+}
+#Skaardak:hover{
+    transform: scale(1.1);
+    rotate: -360deg;
+}
+
+
+/* ARCHIVE OF THE ARCHAIC */
+.gf_cover{
+    grid-column: 1/2;
+    grid-row:3/6;
+    margin: 10px auto;
+    border: 5px solid #e8dab7;
+
+}
+.gf{
+    grid-column: 3/11;
+    grid-row: 3/6;
+    margin: 10px auto;
+    border: 5px solid #e8dab7;
+    background-color: #e8ccbf;
+    padding: 10px;
+}
+.el_cover{
+    grid-column: 1/2;
+    grid-row: 8/12;
+    margin: 10px auto;
+    border: 10px solid #33002c;
+
+}
+.elementus{
+    grid-column:3/11;
+    grid-row: 8/12;
+    margin: 10px auto;
+    border: 10px solid #33002c;
+    background-color: #00C9CC;
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+    margin: 15px;
+    font-family: "MedievalSharp",Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff200;
+    font-size: 300%;
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    font-family: "Titillium Web",'Times New Roman', Times, serif;
+    
+}
+
+.read{
+    background-color: #EB5E28;
+    color: #252422;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    font-family: "Amatic SC",Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 200%;
+    
+}
+.read:hover{
+    content: "_read_";
+    background-color: #252422;
+    color: #EB5E28;
+    text-decoration: none;
+}
+
+#c_button:hover {background-color: #3e8e41}
+
+#c_button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
