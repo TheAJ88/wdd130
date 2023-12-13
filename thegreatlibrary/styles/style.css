@@ -31,7 +31,7 @@ footer{
     color: #FFF200;
     font-size: 1.2em;
     padding: 25px 50px;
-    margin-top: 200px;
+    margin-top: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -94,7 +94,7 @@ body{
     background-color: #252422;
     border: 5px solid gray;
     margin: 5px;
-    padding: 10px;
+    padding: 20px;
 }
 
 .WEAPONS{
@@ -220,12 +220,19 @@ h3{
 h1{
     text-align: center;
     margin: 15px;
-    padding-bottom: 8%;
+    /* padding-bottom: 8%; */
     font-family: "MedievalSharp",Verdana, Geneva, Tahoma, sans-serif;
     color: #fff200;
     font-size: 300%;
 }
-
+#head_archive{
+    text-align: center;
+    margin: 15px;
+    padding-bottom: 7%;
+    font-family: "MedievalSharp",Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff200;
+    font-size: 300%;
+}
 h2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
