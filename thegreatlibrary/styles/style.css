@@ -105,7 +105,7 @@ body{
     text-align: center;
 }
 #spear{
-    margin: 200px auto;
+    margin: 111px auto;
     grid-column: 2/5;
     grid-row: 10/13;
     text-align: center;
@@ -116,7 +116,7 @@ body{
     font-family: "Amatic", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;;
 }
 #shield{
-    margin: 200px auto;
+    margin: 111px auto;
     grid-column: 7/10;
     grid-row: 10/13;
     text-align: center;
