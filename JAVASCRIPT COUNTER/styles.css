@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Amatic+SC&family=Black+Ops+One&family=Bungee&family=MedievalSharp&family=Orbitron:wght@500&family=Rowdies:wght@300&family=Titillium+Web&display=swap');
+
+
+#value{
+    font-size: 800%;
+    font-family: "Orbitron", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background-image: linear-gradient(180deg,#00fafe53, #ffffff);
+}
+
+
+.button-container{
+    width: max-content;
+    margin: 0 auto;
+}
+h1{
+    font-family: "Black Ops One", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 5em;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.increase{
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    font-family: "Titillium Web", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.increase:hover{
+    background-color: #28eb35;
+    color: #252422;
+}
+.decrease{
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    font-family: "Titillium Web", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.decrease:hover{
+    background-color: #eb2828;
+    color: #252422;
+}
+.reset{
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    font-family: "Titillium Web", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.reset:hover{
+    background-color: #ffee00;
+    color: #252422;
+}
